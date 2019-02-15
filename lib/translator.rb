@@ -26,6 +26,7 @@ def get_english_meaning (path, emote)
   library=load_library(path)
   
   library["get_meaning"].each do |k, v|
+    puts v
     if v.include?(emote)
       return k
     end
