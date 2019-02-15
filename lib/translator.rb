@@ -25,9 +25,9 @@ end
 def get_english_meaning (path, emote)
   library=load_library(path)
   p library
-    if v.include?(emote)
-      return k
-    end
+    #if v.include?(emote)
+     # return k
+    #end
   
   "Sorry, that emoticon was not found"
 end
