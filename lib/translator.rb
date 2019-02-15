@@ -24,7 +24,7 @@ end
 
 def get_english_meaning (path, emote)
   library=load_library(path)
-  if !library["get_meaning"].has_key?(emote))
+  if !library["get_meaning"].has_key?(emote)
     return "Sorry, that emoticon was not found"
   else
     library["get_meaning"][emote]
