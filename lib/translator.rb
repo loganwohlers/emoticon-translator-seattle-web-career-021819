@@ -25,7 +25,7 @@ end
 def get_english_meaning (path, emote)
   library=load_library(path)
   puts ""
-  p library
+  p library["get_meaning"]
     #if v.include?(emote)
      # return k
     #end
