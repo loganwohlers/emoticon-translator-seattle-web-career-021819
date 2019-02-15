@@ -24,6 +24,7 @@ end
 
 def get_english_meaning (path, emote)
   library=load_library(path)
+  puts ""
   p library
     #if v.include?(emote)
      # return k
