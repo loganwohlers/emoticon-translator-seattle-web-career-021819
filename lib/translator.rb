@@ -27,6 +27,7 @@ def get_english_meaning (path, emote)
   #p library["get_meaning"]
   library["get_meaning"].each do |k, v|
   hash2=library["get_meaning"]
+  
   p hash2
     if v.include?(emote)
       return k
