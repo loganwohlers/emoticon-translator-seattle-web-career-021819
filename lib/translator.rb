@@ -24,10 +24,7 @@ end
 
 def get_english_meaning (path, emote)
   library=load_library(path)
-  #p library["get_meaning"]
-  hash2=library["get_meaning"]
-  
-  p hash2
+  p library
     if v.include?(emote)
       return k
     end
